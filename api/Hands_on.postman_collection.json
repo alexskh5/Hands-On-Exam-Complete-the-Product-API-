@@ -1,0 +1,102 @@
+{
+	"info": {
+		"_postman_id": "a1decc20-ab51-4ff3-918f-2531f6d73491",
+		"name": "Hands_on",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43605837",
+		"_collection_link": "https://samalexies.postman.co/workspace/Sam-Alexies's-Workspace~bf5949d8-12ab-4aca-82ac-953e78740725/collection/43605837-a1decc20-ab51-4ff3-918f-2531f6d73491?action=share&source=collection_link&creator=43605837"
+	},
+	"item": [
+		{
+			"name": "Get All",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get By ID",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get By ID",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get Latest Price",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/api/Product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/api/Product",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"Product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/api/Product/Latest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/api/Product/Latest",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"Product",
+						"Latest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/api/Product/5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/api/Product/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"Product",
+						"5"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
